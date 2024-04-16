@@ -1,9 +1,9 @@
-import Logo from '../assets/Logo.svg';
+import Logo from "../assets/Logo.svg";
+import HeroImage from "../assets/HeroImage.svg";
 
-
-const images ={
-    Logo,
-
+const images = {
+  Logo,
+  HeroImage,
 };
 
 export default images;
