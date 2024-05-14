@@ -1,6 +1,5 @@
+import { Routes, Route } from "react-router-dom";
 
-
-import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import ArticleDetailPage from "./pages/articleDetail/ArticleDetailPage";
 import HomePage from "./pages/home/HomePage";
@@ -10,7 +9,7 @@ function App() {
     <div className="App font-opensans">
       <Routes>
         <Route index path="/" element={<HomePage />} />
-        <Route path="/blog/:slug" element={<ArticleDetailPage />} />
+        <Route path="/blog/:id" element={<ArticleDetailPage />} />
       </Routes>
     </div>
   );

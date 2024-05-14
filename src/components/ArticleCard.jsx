@@ -1,7 +1,7 @@
 import React from "react";
 import { BsCheckLg } from "react-icons/bs";
 
-import { images } from "../constants";
+import { images } from "../constants/index";
 
 const ArticleCard = ({ className }) => {
   return (

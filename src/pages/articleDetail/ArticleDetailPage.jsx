@@ -1,10 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BreadCrumbs from "../../components/BreadCrumbs";
-import CommentsContainer from "../../components/comments/CommentsContainer";
 import MainLayout from "../../components/MainLayout";
 import { images } from "../../constants";
-import SuggestedPosts from "./container/SuggestedPosts";
+import SuggestedPosts from "../articleDetail/container/SuggestedPosts";
 
 const breadCrumbsData = [
   { name: "Home", link: "/" },
@@ -80,7 +79,6 @@ const ArticleDetailPage = () => {
               lectus proin.
             </p>
           </div>
-          <CommentsContainer className="mt-10" logginedUserId="a" />
         </article>
         <SuggestedPosts
           header="Latest Article"
